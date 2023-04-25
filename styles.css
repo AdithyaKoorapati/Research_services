@@ -1,0 +1,210 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.nav img{
+    height: 50px;
+    width: 50px;
+}
+
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+
+  .page{
+    background-image: url(background.jpg);
+    background-position: center;
+    height: 600px;
+    
+  }
+
+  .page-content{
+    position: absolute;
+    display: inline;
+    top: 150px;
+    left: 15px;
+    padding: 30px;
+    background-color: #537FE7;
+    
+    
+  }
+  
+  .page-content h1{
+    
+     font-family: 'Montserrat', sans-serif;
+     color: rgb(255, 255, 255);
+     font-size: 56px;
+     padding: 15px;
+
+  }
+
+  .page-content p{
+    font-family:  sans-serif;
+    font-size: 20px;
+    color: white;
+    font-style: normal;
+    padding: 15px;
+    margin-bottom: 30px;
+
+  }
+
+  .btn{
+    
+    text-decoration: none;
+    text-align: center;
+    padding: 15px 50px 15px 50px;
+    border-radius: 30px;
+    font-size: 18px;
+    background-color: #ffffff;
+    color: #537FE7;
+  }
+
+  /* card class */
+
+  .card-items{
+    padding-top: 100px;
+    padding-left: 15px;
+    padding-bottom: 80px;
+  }
+
+  .card-items h1{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 50px;
+    padding: 5px;
+  }
+
+  .card-items p{
+   
+    font-size: 20px;
+    padding: 5px;
+  }
+
+  .blue{
+    background-color: #6c95f5;
+  }
+
+  .light-blue{
+    background-color: #a6b6db;
+  }
+
+  .white{
+    background-color: rgb(207, 206, 243);
+  }
+
+  .icon{
+    
+    width: 70px;
+    height: 50px;
+  }
+
+  /* Author Cards */
+
+  .authors{
+    background-color: #537FE7;
+    text-align: center;
+  }
+
+  .heading{
+    padding: 60px;
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+  }
+
+  .person{
+    text-align: center;
+  }
+
+  .white2{
+    background-color: rgb(207, 206, 243);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 30px;
+  }
+
+
+  .white2 img{
+    border-radius: 50%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 300px;
+    padding: 20px;
+  }
+
+  /* Overlay */
+  .slide:hover{
+    background-color: #989ead;
+
+  }
+
+  
+  /* Street Background */
+
+  .street{
+    margin-top: 150px;
+    background-image: url(street_background.jpg);
+    text-align: center;
+    padding: 30px;
+  }
+
+  .street-content h1{
+    font-size: 60px;
+    padding: 20px;
+  }
+
+  .street-content p{
+    padding: 20px;
+  }
+
+
+  .street-content{
+    background-color: white;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 40px;
+    
+  }
+
+  .footer{
+    background-color: #333232;
+    text-align: center;
+    padding: 20px;
+    color: rgb(185, 182, 182);
+  }
